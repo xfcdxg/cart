@@ -1,4 +1,4 @@
-import { reduce, prop, isNil, compose, append, __, assoc, merge, values } from 'ramda'
+import { reduce, prop, isNil, compose, append,__ , assoc, merge, values } from 'ramda'
 
 const format = (o, curr) => {
   const { activity } = curr

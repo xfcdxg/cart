@@ -5,9 +5,6 @@ let commodityId = 0
 const activities = [
   {
     name: '满减',
-    rule: {
-
-    },
     mutex: [1, 0, 1, 0],
   }, {
     name: '加价购',
