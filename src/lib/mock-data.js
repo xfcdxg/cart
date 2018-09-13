@@ -12,8 +12,7 @@ const activities = [
   }, {
     name: '专区',
     mutex: [1, 1, 1, 1],
-  },
-  {
+  }, {
     name: '活动ABC',
     mutex: [0, 1, 1, 1],
   },

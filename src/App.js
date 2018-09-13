@@ -25,10 +25,10 @@ class App extends Component {
     const { activities } = this.state
 
     return compose(dropRepeats, concat([id]))(
-      map(({ id, mutex: mutex1, type: type1 }) => {
+             map(({ id, mutex: mutex1, type: type1 }) => {
                if (mutex[type1] === 0 && mutex1[type] === 0) return id
              }, activities)
-    )
+           )
   }
   handleAddOn(activityId) {
     const { addOn } = this.state
